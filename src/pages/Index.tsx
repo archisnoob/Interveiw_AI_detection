@@ -5,6 +5,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import CodingInterface from '@/components/CodingInterface';
 import AdminDashboard from '@/components/AdminDashboard';
 import ThemeToggle from '@/components/ThemeToggle';
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
 import { Shield, Code, BarChart3 } from 'lucide-react';
 
 const Index = () => {
@@ -23,7 +25,9 @@ const Index = () => {
                 <p className="text-sm text-gray-600 dark:text-gray-300 transition-colors">Advanced behavioral analysis for coding interviews</p>
               </div>
             </div>
-            <ThemeToggle />
+            <div className="flex items-center gap-3">
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>
