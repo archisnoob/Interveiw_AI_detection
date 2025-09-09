@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Note: Judge0 integration requires API keys configured at build time.
